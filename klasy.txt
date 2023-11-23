@@ -1,0 +1,28 @@
+Program
+
+
+Ranking
+Klasa spełnia single-responsibility, ponieważ jest odpowiedzialna za pojedyńczy aspekt aplikacji.
+Została utworzona jedynie dla utrzymania porządku w kodzie.
+
+Database
+
+
+Room
+Klasa spełnia single-responsibility, ponieważ jest odpowiedzialna za pojedyńczy aspekt aplikacji.
+
+
+Game
+Klasa spełnia single-responsibility, ponieważ jest odpowiedzialna za pojedyńczy aspekt aplikacji (przetrzymywanie danych o partii).
+Funckjonuje także jako niezależna klasa, co spełnia zasadę Dependency Inversion.
+
+User
+Klasa spełnia single-responsibility, ponieważ jest odpowiedzialna za pojedyńczy aspekt aplikacji (przetrzymywanie danych o użytkowniku).
+Funckjonuje także jako niezależna klasa, co spełnia zasadę Dependency Inversion.
+Ponadto, stosuje się do zasady open/closed, ponieważ eksponuje motody umożliwiające dalsze rozwijanie aplikacji bez zmiany własnej zawartości.
+
+Tournament
+Klasa spełnia single-responsibility, ponieważ jest odpowiedzialna za pojedyńczy aspekt aplikacji (przetrzymywanie danych o turnieju).
+Funckjonuje także jako niezależna klasa, co spełnia zasadę Dependency Inversion.
+Ponadto, stosuje się do zasady open/closed, ponieważ eksponuje motody umożliwiające dalsze rozwijanie aplikacji bez zmiany własnej zawartości.
+
